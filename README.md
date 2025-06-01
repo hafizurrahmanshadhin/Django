@@ -15,7 +15,7 @@
 **Create a new virtual environment in the current directory:**
 
 ```shell
-    python -m venv venv
+    python -m venv .venv
 ```
 
 ## 3. Activate the Environment
@@ -23,9 +23,7 @@
 **Navigate into the virtual environment folder and activate it:**
 
 ```shell
-    cd .\venv\
-    cd .\Scripts\
-    ./activate
+    .\.venv\Scripts\activate
 ```
 
 **Then return to the main directory:**
