@@ -63,3 +63,26 @@
 ```shell
     python manage.py startapp myapp
 ```
+
+---
+
+## Project Re-Setup
+
+```shell
+    pip freeze > requirements.txt
+    python -m venv .venv
+    .\.venv\Scripts\activate
+    pip install -r requirements.txt
+```
+
+1. **pip freeze > requirements.txt**  
+   Saves currently installed packages (in the active environment) to requirements.txt.
+
+2. **python -m venv .venv**  
+   Creates a new virtual environment named .venv.
+
+3. **.venv\Scripts\activate**  
+   Activates the .venv environment.
+
+4. **pip install -r requirements.txt**  
+   Installs all packages listed in requirements.txt inside the new environment.
